@@ -1,0 +1,15 @@
+/* Change the background and border of Bootstrap inputs */
+.form-control {
+          background-color: #c8c8c8; /* Light gray background */
+          color: #002820; /* Dark green text color */
+          padding: 0.5rem; /* Padding inside the input */
+          border-radius: 4px; /* Rounded corners */
+        }
+        
+        /* Change the color when the input is focused */
+        .form-control:focus {
+          background-color: #fff; /* White background when the input is focused */
+          border-color: #002820; /* Dark green border */
+          outline: none; /* Removes the default blue outline in some browsers */
+        }
+        

@@ -1,0 +1,38 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%; /* Ocupa todo el ancho */
+  height: 100vh; /* Ocupa toda la altura de la pantalla */
+}
+
+.MainContainer {
+  width: 100%; /* Ocupa todo el ancho de la pantalla */
+  margin: 0 auto; /* Centra el contenedor */
+  height: 100vh; /* Ocupa toda la altura de la pantalla */
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+
+}
+
+.FormContainer{
+  width: 35%; 
+}
+
+.ItemCardContainer {
+  width: 55%; 
+  max-width: 1200px; 
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 0.1rem;
+  justify-content: center;
+}
+
+.card-green {
+  background-color: #00fdc2 !important; /* mint */ 
+  color: #002820; /* verde oscuro para el texto */
+  border: none;
+}
+
