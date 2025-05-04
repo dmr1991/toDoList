@@ -1,12 +1,18 @@
 .custom-btn {
-          background-color: #aba2db; /* lilac */
-          color: #000000; /* black text*/
-          border: none;
-          width: 80%
-        }
-        
-        .custom-btn:hover {
-          background-color: #8c75fc;
-          color: #000000; /* black text*/
-        }
-        
+  background-color: #9380ff; /* lilac */
+  color: #000000; /* black text*/
+  border: none;
+  width: 40%;
+}
+
+.custom-btn:hover {
+  background-color: #a999fb;
+  color: #000000; /* black text*/
+}
+
+.button-container {
+  display: flex;
+  gap: 3rem; // esto separa los botones
+  justify-content: center; // opcional, para centrar los botones
+  flex-wrap: wrap; // opcional, por si en mobile se apilan
+}

@@ -10,20 +10,31 @@
   margin: 0 auto; /* Centra el contenedor */
   height: 100vh; /* Ocupa toda la altura de la pantalla */
   display: flex;
+  flex-direction: column;
   align-items: center;
-  padding: 2rem;
 
 }
+.ToDoContainer {
+  width: 100%; /* Ocupa todo el ancho de la pantalla */
 
+  margin: 0 auto; /* Centra el contenedor */
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
 .FormContainer{
-  width: 35%; 
+  width: 45%; 
+  height: 100%;
+  padding: 2rem 1rem 2rem 2rem;
+  display: flex;
+  align-items: flex-start; 
 }
 
 .ItemCardContainer {
   width: 55%; 
   max-width: 1200px; 
-  margin: 2rem auto;
   display: flex;
+  padding: 2rem 2rem 2rem 1rem;
   flex-direction: column;
   flex-wrap: wrap;
   gap: 0.1rem;
@@ -31,8 +42,22 @@
 }
 
 .card-green {
-  background-color: #00fdc2 !important; /* mint */ 
+  background-color: #7ee4f1 !important; /* mint */ 
   color: #002820; /* verde oscuro para el texto */
   border: none;
 }
 
+@media (max-width: 768px) {
+  .ToDoContainer {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+  }
+
+  .FormContainer,
+  .ItemCardContainer {
+    width: 100%;
+    padding: 0 1rem;
+  }
+}

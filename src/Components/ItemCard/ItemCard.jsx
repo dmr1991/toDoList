@@ -20,7 +20,9 @@ function ItemCard({
         <Card.Text>{description}</Card.Text>
         <Card.Title>{titleDate}</Card.Title>
         <Card.Text>{date}</Card.Text>
+        <div className="button-container">
         <Button className="custom-btn">Remove</Button>
+        <Button className="custom-btn">Edit</Button></div>
       </Card.Body>
     </Card>
   );
