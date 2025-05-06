@@ -15,8 +15,7 @@
 
 }
 .ToDoContainer {
-  width: 100%; /* Ocupa todo el ancho de la pantalla */
-
+  width: 90%; /* Ocupa todo el ancho de la pantalla */
   margin: 0 auto; /* Centra el contenedor */
   display: flex;
   align-items: center;
@@ -37,11 +36,11 @@
   padding: 2rem 2rem 2rem 1rem;
   flex-direction: column;
   flex-wrap: wrap;
-  gap: 0.1rem;
+  gap: 1rem;
   justify-content: center;
 }
 
-.card-green {
+.card-blue {
   background-color: #7ee4f1 !important; /* mint */ 
   color: #002820; /* verde oscuro para el texto */
   border: none;
